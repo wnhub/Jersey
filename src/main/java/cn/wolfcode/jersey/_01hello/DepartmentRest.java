@@ -20,7 +20,7 @@ public class DepartmentRest {
      * @return
      */
     @GET
-//    @Path("dept1")
+    @Path("dept1")
     @Produces(MediaType.APPLICATION_JSON)
     @Consumes(MediaType.APPLICATION_JSON)
     public List<Department> list() {
@@ -30,8 +30,8 @@ public class DepartmentRest {
         return dept;
     }
 
-//    @GET
 //    @Path("dept2")
+//    @GET
 //    @Produces(MediaType.APPLICATION_XML)
 //    @Consumes(MediaType.APPLICATION_XML)
 //    public List<Department> listXml() {
